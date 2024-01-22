@@ -2,4 +2,9 @@ header {background-color: #EAC926;
     ;}
     /*lo que hace * acpeta todo*/ 
     
-    *{font-family: "Roboto",sans-serif;margin: 0px;}
+    *{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    /* color: #ebebeb; */
+    }
