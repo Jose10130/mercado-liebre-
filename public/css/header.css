@@ -1,0 +1,29 @@
+.logo{
+    width: 50%;
+}
+.burger-menu i{
+    color: white;
+    padding: 8px 8px 7px 7px;
+    background-color: #1259c3;
+    margin-left: 140px;
+    border-radius: 7px;
+    /* text-align: center; */
+}
+.principio {
+    color : black;
+    text-decoration: none;/*le saca el subrayados*/
+    list-style: none;/* none le saca los puntos de lista*/
+}
+.principio a { 
+    color : black;
+    text-decoration: none;/*le saca el subrayados*/
+
+}
+.list-1{
+  
+    list-style: none
+}
+.list-1 a {color : black;
+    text-decoration: none;
+    
+}

@@ -15,4 +15,4 @@ app.get('/home', (req, res)=>{
 
 
 
-app.listen(port, ()=> console.log(`htt://localhost: ${port}`))
+app.listen(port, ()=> console.log(`http://localhost:${port}`))
