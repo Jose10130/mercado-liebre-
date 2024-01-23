@@ -23,8 +23,9 @@
     padding: 3px 15px 15px 3px;
 }
 .articulos .size-descuento{
-    color:#39b54a
+    color:#39b54a;
 }
+
 .articulos .size-descripcion{
     color: #666;
     font-weight: normal;
@@ -34,7 +35,7 @@
     .burger-menu i{display: none; }
     .principio {}
     .principio a { }
-    .list-1{
+    .list-1{display: block;
     }
     .list-1 a {color : black;
        }
@@ -66,7 +67,7 @@
     .burger-menu i{ display: none;}
     .principio {}
     .principio a { }
-    .list-1{}
+    .list-1{display: block;}
     .list-1 a {}
 
     .banner {}
