@@ -14,12 +14,18 @@ app.get('/', (req, res)=>{
 app.get('/registro', (req, res)=>{
     res.sendFile(path.join(__dirname, "./views/register.html"))
 
-app.get('/register', (req, res)=>{
-    res.redirect('/')
-})
+app.get('/registro', (req, res)=>{
+    res.redirect('/home')
 })
 
+})
+app.get('/login', (req, res)=>{
+    res.sendFile(path.join(__dirname, "./views/login.html"));
 
+app.get('/login', (req, res)=>{
+    res.redirect('/home')
+})
+})
 
 
 app.listen(port, ()=> console.log(`http://localhost:${port}`))
