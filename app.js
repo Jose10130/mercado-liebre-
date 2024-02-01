@@ -7,11 +7,18 @@ app.use(express.static('public'))
 
 app.get('/', (req, res)=>{
     res.sendFile(path.join(__dirname, "./views/home.html"))
-})
-
-app.get('/home', (req, res)=>{
+    app.get('/home', (req, res)=>{
     res.redirect('/')
 })
+});
+app.get('/registro', (req, res)=>{
+    res.sendFile(path.join(__dirname, "./views/register.html"))
+
+app.get('/register', (req, res)=>{
+    res.redirect('/')
+})
+})
+
 
 
 
